@@ -1,4 +1,7 @@
 import math
+
+# Function to Calculate Area
+
 def calc_area (radius):
     area = math.pi * radius * radius
     return area
