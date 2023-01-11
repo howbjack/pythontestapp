@@ -30,7 +30,7 @@ if (file_longer == "file1"):
     f.write('\n')
     #print(combo_len, len(file1))
     for i in range(combo_len,len(file1)):
-        print(file1[i])
+        # print(file1[i])
         f.write(file1[i])
 else:
     #print(combo_len, len(file2))
