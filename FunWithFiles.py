@@ -5,9 +5,9 @@ with open('C:\downloads\File2.txt') as f:
     file2 = f.readlines()
 
 print(f"Contents of file1, length: {len(file1)}")
-print(file1)
+#print(file1)
 print(f"Contents of file2, length: {len(file2)}")
-print(file2)
+#print(file2)
 if (len(file1) < len(file2)):
     combo_len = len(file1)
     #single_len = len(file2) - len(file1)

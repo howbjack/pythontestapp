@@ -21,6 +21,8 @@ def pdfsplit():
     input_pdf2 = PyPDF2.PdfReader(sample_pdf2)
     output_pdf  = PyPDF2.PdfWriter()
 
+ 
+
     output_pdf.add_page(input_pdf1.pages[0])
     output_pdf.add_page(input_pdf1.pages[1])
     output_pdf.add_page(input_pdf1.pages[2])
