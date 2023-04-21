@@ -2,6 +2,8 @@ import random
 
 wordpool = ["welcome","fantasy","noodles","aadvark","unlikely","mississippi"]
 
+#This is a comment
+
 def selectword():
 
     return wordpool[random.randint(0,5)]
