@@ -2,7 +2,9 @@ import random
 
 wordpool = ["welcome","fantasy","noodles","aadvark","unlikely","mississippi"]
 
-#This is a comment
+# This is a comment
+# Added another HBJ
+# Third line 
 
 def selectword():
 
