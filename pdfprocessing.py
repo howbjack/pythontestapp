@@ -1,3 +1,4 @@
+"""Main Package"""
 import sys
 import PyPDF2
 
