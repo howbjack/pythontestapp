@@ -1,2 +1,2 @@
 # pythontestapp
-This is our app to learn Python and Github
+This is our project whch we will use  to learn Python and Github
