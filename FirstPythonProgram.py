@@ -8,7 +8,7 @@ def calc_area (radius):
 
 r = float(input("Enter the Radius: "))
 the_area=calc_area(r)
-print(f"The area of the circle is {the_area}") 
+print(f"The area of the whole ircle is {the_area}") 
 
 the_num = int(input("Enter the number: "))
 timesten = 10 * the_num + the_num
