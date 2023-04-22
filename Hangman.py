@@ -8,14 +8,15 @@ def selectword():
     return wordpool[random.randint(0,5)]
 
 def getemptylist(strlen):
+    """Build empty list"""
 
     my_list = []
     for _ in range(strlen):
         my_list.append('')
     return my_list
-   
+
 def checkposition(letter):
-    # Check the position of the guessed letter in word
+    """Check the position of the guessed letter in word"""
     for i in range(len(gameletters)):
         if letter == gameletters[i]:
             guessletters[i] = letter
