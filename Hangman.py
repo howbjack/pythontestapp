@@ -7,10 +7,10 @@ def selectword():
     """Select a random word from pool"""
     return wordpool[random.randint(0,5)]
 
-def getemptylist(n):
+def getemptylist(strlen):
 
     my_list = []
-    for _ in range(n):
+    for _ in range(strlen):
         my_list.append('')
     return my_list
    
