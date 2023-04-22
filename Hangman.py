@@ -1,13 +1,10 @@
+"""Attempt to create a hangman game"""
 import random
 
 wordpool = ["welcome","fantasy","noodles","aadvark","unlikely","mississippi"]
 
-# This is a comment
-# Added another HBJ
-# Third line 
-
 def selectword():
-
+    """Select a random word from pool"""
     return wordpool[random.randint(0,5)]
 
 def getemptylist(n):
