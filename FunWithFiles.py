@@ -39,9 +39,10 @@ else:
         f.write(file2[i])
 
 f.close()
-word_count = 0
+
+wordcount = 0
 with open("C:\downloads\FileCombo.txt", encoding="utf8") as f:
     line = f.read()
     print(line)
-    word_count += len(line.split(" "))
+    wordcount += len(line.split(" "))
 print(f"Combined file FileCombo.txt written, total number of words is: {word_count}")
