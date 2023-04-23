@@ -17,10 +17,9 @@ def getemptylist(strlen):
 
 def checkposition(letter):
     """Check the position of the guessed letter in selected word """
-    for i in range(len(gameletters)):
-        if letter == gameletters[i]:
-            guessletters[i] = letter
-
+    for pos,curr_letter in enumerate(gameletters):
+        if letter == curr_letter:
+            guessletters[pos] = letter
 
 gameletters = list(selectword())
 print (gameletters)
